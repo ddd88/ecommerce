@@ -15,7 +15,7 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-			    <li class="nav-item {% if request.path == home_url %}active{% endif %}">
+				<li class="nav-item {% if request.path == home_url %}active{% endif %}">
 					<a class="nav-link" href="{{ home_url }}">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item {% if request.path == product_list_url %}active{% endif %}">
@@ -23,9 +23,9 @@
 				</li>
 				<li class="nav-item {% if request.path == contact_url %}active{% endif %}">
 					<a class="nav-link" href="{{ contact_url }}">Contact</a>
-			    </li>
+				</li>
 
-			    {% if request.user.is_authenticated %}
+				{% if request.user.is_authenticated %}
 					<li class="nav-item {% if request.path == login_url %}active{% endif %}">
 						<a class="nav-link" href="{{ login_url }}">Logout</a>
 					</li>
@@ -38,20 +38,17 @@
 					</li>
 				{% endif %}
 				<li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			        Dropdown link
-			        </a>
+					</a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			    </li>
-	    	</ul>
-		    <form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
-	    </div>
+			        	<a class="dropdown-item" href="#">Action</a>
+			        	<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+			{% include 'search/snippets/search-form.html' %}
+		</div>
 	</div>
 </nav>
