@@ -4,21 +4,24 @@ from django.shortcuts import render, redirect
 
 from .forms import ContactForm, LoginForm, RegisterForm
 
+
 def home_page(request):
-	context = {
-		"title":"Hello World!",
-		"content":"Welcome to the home page"
-	}
-	if request.user.is_authenticated:
-		context["premium_content"] = "YEAHHHHHH!!!!!"
-	return render(request, "home_page.html", context)
+    context	= {
+        "title":"Hello World!",
+        "content":"Welcome to the home page"
+    }
+
+    if request.user.is_authenticated:
+        context["premium_content"] = "YEAHHHHHH!!!!!"
+    return render(request, "home_page.html", context)
+
 
 def about_page(request):
-	context = {
+    context = {
 		"title":"About Page",
 		"content":"This is the About page"
-	}
-	return render(request, "home_page.html", context)
+    }
+    return render(request, "home_page.html", context)
 
 def contact_page(request):
 	contact_form = ContactForm(request.POST or None)
