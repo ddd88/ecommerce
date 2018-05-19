@@ -1,7 +1,6 @@
 # Checkout Process
 
-1. Cart -> Checkout View
-    ?
+1. Cart -> Checkout View?
     - Login/Register or Enter an Email(as Guest)
     - Shipping Address
     - Billing Info
