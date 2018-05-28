@@ -1,0 +1,100 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "tshirt",
+        "description": "Slightly used unwashed T-shirt",
+        "price": "39.99",
+        "image": "products/794315335/794315335.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "This is my favorite 10 year old hat",
+        "price": "39.99",
+        "image": "products/1665956693/1665956693.jpeg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Chair",
+        "slug": "chair",
+        "description": "A chair I found on the side of the road",
+        "price": "39.99",
+        "image": "products/1720847310/1720847310.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "candy",
+        "slug": "candy",
+        "description": "Candy for everyone",
+        "price": "39.99",
+        "image": "products/2464696427/2464696427.jpg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "computer",
+        "slug": "computer",
+        "description": "A computer of course",
+        "price": "39.99",
+        "image": "products/1094448543/1094448543.jpeg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "spongebob",
+        "slug": "spongebob",
+        "description": "Spongebob! Get ya Spongebob!!!!\r\nBacon ipsum dolor amet tenderloin venison pork chop corned beef turducken jerky. Alcatra doner tongue pork belly pastrami brisket. Swine drumstick sausage pancetta jowl bresaola. Sausage leberkas turducken fatback beef ribs biltong, hamburger filet mignon pork loin jerky drumstick shankle corned beef. Beef meatball leberkas burgdoggen shank ground round venison. Filet mignon biltong prosciutto salami alcatra.\r\n\r\nSausage boudin beef pork chop shankle, shoulder rump tenderloin chuck fatback shank. Buffalo capicola boudin jerky cupim rump doner short loin ground round jowl. Burgdoggen swine turducken, ham fatback chuck beef cupim landjaeger drumstick. Shoulder venison brisket pig, ribeye short ribs ham burgdoggen kielbasa. Strip steak pork belly shoulder tenderloin frankfurter beef.\r\n\r\nTurducken tail meatloaf, capicola ground round venison biltong bresaola. Brisket rump drumstick, frankfurter doner sausage tri-tip jowl ham ribeye. Alcatra drumstick t-bone biltong beef ribs tail brisket pancetta cow short loin boudin flank porchetta shankle. Shoulder chuck corned beef shank salami ribeye ball tip tri-tip kielbasa. Turkey pork loin ground round tenderloin, picanha fatback prosciutto bacon short ribs beef brisket cupim short loin capicola. Filet mignon beef ribs doner kevin, shank biltong buffalo.",
+        "price": "39.99",
+        "image": "products/2727858868/2727858868.png",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-05-06T15:21:45.336Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "troll",
+        "slug": "troll",
+        "description": "A nasty troll from under a bridge. Perfect for scaring kids into behaving.",
+        "price": "79.99",
+        "image": "products/1173022390/1173022390.png",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-05-06T15:23:36.203Z"
+    }
+}
+]

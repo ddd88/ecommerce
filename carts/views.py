@@ -44,13 +44,12 @@ def cart_update(request):
             added = True
         request.session['cart_items'] = cart_obj.products.count()
         if request.is_ajax():
-            print("Ajax request")
             json_data = {
                 "added": added,
                 "removed": not added,
                 "cartItemCount": cart_obj.products.count()
             }
-            return JsonResponse(json_data)
+            return JsonResponse(json_data, status=200)
     return redirect("cart:home")
 
 
